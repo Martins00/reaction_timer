@@ -1,0 +1,14 @@
+THE LEARNING CONTINUES
+
+//Randoms 
+What is the disabled tag in html?IF you use it on a button, it'll not work o=with regard to the condition it has been given.
+We use it by binding it in the component tag in the app.vue component.
+Math.random should always start with a capital letter
+Also, do not forget to add return each time you start writing the data component
+
+//LifeCycle Hooks
+They are majorly used to fire codes at different lifecycles of the component
+We have the Mount,Updated and Unmount.
+They do not need to be put in the methods component.  Just put it directly into the app.
+
+//
