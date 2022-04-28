@@ -34,7 +34,7 @@ export default {
         },
         stopTimer() {
             clearInterval(this.timer)
-            console.log(this.reactionTime)
+            this.$emit('end', this.reactionTime)
         }
     }
 }
@@ -45,7 +45,7 @@ export default {
         width: 400px;
         border-radius: 10px;
         background: teal;
-        color: rgb(140, 161, 161);
+        color: white;
         text-align: center;
         padding: 100px 0;
         margin: 40px auto;
