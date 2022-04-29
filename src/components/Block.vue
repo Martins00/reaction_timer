@@ -44,7 +44,7 @@ export default {
     .block{
         width: 400px;
         border-radius: 10px;
-        background: teal;
+        background: green;
         color: white;
         text-align: center;
         padding: 100px 0;

@@ -10,5 +10,8 @@ Also, do not forget to add return each time you start writing the data component
 They are majorly used to fire codes at different lifecycles of the component
 We have the Mount,Updated and Unmount.
 They do not need to be put in the methods component.  Just put it directly into the app.
+The system already knows what these mean, so just output it.
 
-//
+//Custom events
+We can use the emit button to send both the new event and the data
+i.e $emit('eventName', data)
